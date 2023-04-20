@@ -177,6 +177,7 @@ Input                   | output
 1 1 1 1 1 1 1 1 1 0     |   1
 ```
 
+## Approach 3
 
 Now if we want to make code more dynamic i.e, it can handle any length of the array and can calculate the outcome. We can do it, just iterating through the length of the array and checking if the element at that index is `1` or `0`.
 Suppose, if we are at an even index and element at that index is `1`,then we'll increment `team_1` by `1`. Else, we are at odd index, and we'll increment `team_2` by `1`.
