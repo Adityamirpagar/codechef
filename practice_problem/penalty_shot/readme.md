@@ -46,7 +46,8 @@ Input                   | output
 
 * **Test case 4:** Team `2` misses their final shot and hence team 1 wins the game with the final score of `5-4`.
 
-------------------------------------------------------------
+----------------
+----------------
 
 # Solution 
 
