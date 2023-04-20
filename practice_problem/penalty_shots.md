@@ -244,3 +244,6 @@ Input                   | output
 All three codes are valid and return the same output, but it depends on the time and space complexity, if there is a time limit then 1st approach is good because it is hard coded and uses no loops to check for winning team.
 
 If there is no time limit and the array size is changing then 3rd approach is good enough (not the best).
+
+
+hellow 
