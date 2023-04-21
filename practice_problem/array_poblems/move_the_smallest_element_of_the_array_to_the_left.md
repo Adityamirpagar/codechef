@@ -1,23 +1,23 @@
 # Move the smallest element of the array to the left
 
-Given an array A of the length N, Please perform the following operations
+Given an array `A` of the length `N`, Please perform the following operations
 
 * Find the smallest element of the array and move it to the leftmost position
-* Output the updated array A
+* Output the updated array `A`
 
 **Note:**
 If the array has multiple occurrences of the smallest element-then multiple answers are possible!
 
 ## Input Format
 
-* The lines of the input will contain a single integer T, denoting the number of test cases.
+* The lines of the input will contain a single integer *T*, denoting the number of test cases.
 * Each test case consist of two lines of input
-    * 1st line contains the integer N
-    * 2nd line contains N space separated integer -denoting the array A
+    * *1st* line contains the integer *N*
+    * *2nd* line contains *N* space separated integer -denoting the array *A*
 
 ## Output Format
 
-* For each test case, output on a single line the updated array A
+* For each test case, output on a single line the updated array *A*
 
 ### Sample 1:
 
@@ -37,14 +37,14 @@ input               | output
 
 ## Approach 1.
 
-Create two variables, min_element and min_element_index. we'll assign the first element  and it's index to min_element and min_element_index (i.e., at a[0]) respectively. So that we have something to compare with, beacause we are assuming that the first element is the smallest element in the array.
+Create two variables, `min_element` and `min_element_index`. We'll assign the first element  and it's index to `min_element` and `min_element_index` (i.e., at `a[0]`) respectively. So that we have something to compare with, because we are assuming that the first element is the smallest element in the array.
 
-After creating the variable's, we'll go through array skipping the first index (i.e., a[i+1]....a[n]), this is because we've already stored the first element and its index on the variable min_element and min_element_index.
+After creating the variable's, we'll go through array skipping the first index (i.e., `a[i+1]....a[n]`), this is because we've already stored the first element and its index on the variable `min_element` and `min_element_index`.
 
-while we go through the loop till n, we'll check that if a[i] is less than min_element, if it is than we will replace the min_element value with new value and also change the min_element_index to the index of new value. This will go through array until we reach the last element. Hence after the execution of this loop we'll get the min_element as well as it's index.
+While we go through the loop till n, we'll check that if `a[i]` is less than `min_element`, if it is than we will replace the `min_element` value with new value and also change the `min_element_index` to the index of new value. This will go through array until we reach the last element. Hence, after the execution of this loop we'll get the `min_element` as well as its index.
 
-Now, we have to shift the min_elemnet to the leftmost position of the array, without changing the order of the rest element.
-    we can do this by using swap method, we know the index of the min_element i.e., min_element_index. We'll use this value to rearrange the array.
+Now, we have to shift the `min_element` to the leftmost position of the array, without changing the order of the rest element.
+    We can do this by using swap method, we know the index of the `min_element` i.e., `min_element_index`. We'll use this value to rearrange the array.
 
     ```cpp
     int temp = arr[i]
@@ -54,7 +54,7 @@ Now, we have to shift the min_elemnet to the leftmost position of the array, wit
     ```
     we'll run this swap funtion until i > 0. Hence, this will result in shifting the array to the leftmost position of the array.
 
-## code 
+## Code 
 
 ```cpp
 # include <iostream>
