@@ -52,9 +52,9 @@ input       |    Output
 We know the total weekend (i.e., Saturdays and Sundays) are 8. So we just have to check if the input day is a part of the weekends or not. We can do this by dividing the input number with 7, and if the remainder is 0 or 6, then it is part of the weekend. If the remainder is not equal to 0 or 6 then we'll increment the weekend by 1, because the number (day) is not on Saturday or Sunday.
     We'll create a variable named weekend and assign it 8. (representing the holidays on Saturday and Sunday)
 
-> If dividing the number by 7 gives us remainder 6, then the number falls on Saturday which is a holiday.
-> And if dividing the number by 7 gives us remainder of 0, then the number falls on Sunday which is also a holiday.
-> We'll only increment weekend by 1, if the given number when divided by 7 will not give 6 or 0, as a remainder. (because remainder 6 and 0 implies that the number (day) falls on Saturday or Sunday.)
+>* If dividing the number by 7 gives us remainder 6, then the number falls on Saturday which is a holiday.
+>* And if dividing the number by 7 gives us remainder of 0, then the number falls on Sunday which is also a holiday.
+>* We'll only increment weekend by 1, if the given number when divided by 7 will not give 6 or 0, as a remainder. (because remainder 6 and 0 implies that the number (day) falls on Saturday or Sunday.)
 
 ## Code 
 
