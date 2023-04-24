@@ -62,19 +62,21 @@ Let's solve first two tasks, these are pretty simple. For both the tasks we'll c
 
 ```cpp
 // for string A
-for(int i =0; i < a.lenth(): i++){
+for(int i =0; i < a.length(): i++){
     if (a[i]=='1')
         a_count++;
 }
 
 // for string B
-for(int i =0; i < b.lenth(): i++){
+for(int i =0; i < b.length(): i++){
     if (b[i]=='1')
         b_count++;
 }
 
 ```
-Now in third condition we have to count the number of indices that have common element in both the strings *A* and *B*. For this we'll create another variable `common`. It is given in the statement that the length of both the strings are same. Hence, we'll iterate through any string, lets iterate through string *A* from 0 to `A.length()`. At each *A[i]* we'll check if *A[i] = B[i]* (i.e., element of string *A* is equal to the element of string *B*). If they are equal we'll increment the `common` by 1.
+Now in third condition we have to count the number of indices that have common element in both the strings *A* and *B*. For this we'll create another variable `common`. 
+
+It is given in the statement that the length of both the strings are same. Hence, we'll iterate through any string, lets iterate through string *A* from 0 to `A.length()`. At each *A[i]* we'll check if *A[i] = B[i]* (i.e., element of string *A* is equal to the element of string *B*). If they are equal we'll increment the `common` by 1.
 
 At last, we'll print all the variable (`a_count, b_count, common`) on the screen.
 
@@ -107,7 +109,7 @@ int main() {
             b_count++;
       }
 
-      // incrementin index by 1, each time a[i] == b[i] (value of both stirng are equal)
+      // incrementing index by 1, each time a[i] == b[i] (i.e, value of both strings are equal)
       int index = 0;
       for(int i =0; i< a.length();i++){
             if(a[i] == b[i])
@@ -120,5 +122,5 @@ int main() {
    }
    
 return 0;
-}
-```
+} 
+``` 
