@@ -72,7 +72,7 @@ return 0;
 }
 ```
 
-## Approach 2 (using reversed function)
+## Approach 2 (using `reverse()` function)
 
 We'll use the `reverse()` function from the algorithm header file. The function allow us to reverse a string. e.g.,
 
