@@ -109,7 +109,7 @@ std::string s;
 std::string reversed_s = std::reverse(a.begin(), a.end());
 // this will produce an error
 ```
-To assign the value of the `reverse()` function to any varialbe we use alternate method. e.g,
+To assign the value of the `reverse()` function to any variable we use alternate method. e.g,
 
 ```cpp
 string s;
@@ -120,4 +120,3 @@ std::reverse(reversed_s.begin(), reversed_s.end());
 ```
 
 This way the string is reversed, and the main string variable is still intact.
-
