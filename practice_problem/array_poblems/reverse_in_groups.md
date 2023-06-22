@@ -113,24 +113,3 @@ void reverse_arr(std::vector<int>& arr, int n, int k){
 }
 
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
